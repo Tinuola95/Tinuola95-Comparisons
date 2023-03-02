@@ -24,6 +24,10 @@ public class Lab {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
+        if (a == b){
+            return true;
+        }else{
+        }
         return false;
     }
 
