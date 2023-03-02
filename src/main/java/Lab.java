@@ -37,6 +37,10 @@ public class Lab {
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
+        if (a > b){
+            return true;
+        }else {
+        }
         return false;
     }
     /**
