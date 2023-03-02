@@ -49,6 +49,10 @@ public class Lab {
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
+        if (a < b){
+            return true;
+        }else {
+        }
         return false;
     }
     /**
@@ -57,6 +61,10 @@ public class Lab {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
+        if (a >= b){
+            return true;
+        }else {
+        }
         return false;
     }
     /**
